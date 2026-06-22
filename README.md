@@ -104,3 +104,7 @@ python main.py --apenas-mapa
 # Pular etapas individualmente
 python main.py --skip-processamento --skip-classificacao
 ```
+
+## Mudanças futuras
+- Migrar da API de mapas do Google para uma free 
+- Migrar de coletor de texto do Facebook para Twitter
