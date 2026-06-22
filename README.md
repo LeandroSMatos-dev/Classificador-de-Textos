@@ -15,10 +15,9 @@ com visualização geoespacial via Flask + Google Maps.
 - Iteradores `.iteritems()` → `.items()`.
 - `csv.reader(open(..., 'rb'))` → `csv.reader(open(..., encoding='utf-8'))`.
 
-### 2. Segurança — credenciais fora do código
-- Chaves de API e segredos do Facebook **removidos** do código-fonte.
-- Agora lidos via variáveis de ambiente (`FB_APP_ID`, `FB_APP_SECRET`, `GOOGLEMAPS_KEY`).
-- Recomenda-se criar um arquivo `.env` (não versionado) com essas variáveis.
+### 2. Segurança —
+- API keys lidos via variáveis de ambiente (`FB_APP_ID`, `FB_APP_SECRET`, `GOOGLEMAPS_KEY`).
+- Arquivo `.env` (não versionado) com essas variáveis.
 
 ### 3. Qualidade de código
 - **classificador.py**: variáveis globais mutáveis eliminadas; lógica encapsulada
