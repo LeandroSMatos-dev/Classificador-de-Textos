@@ -1,0 +1,23 @@
+# Dependências do Projeto TCC
+# Instalar com: pip install -r requirements.txt
+
+# NLP
+nltk>=3.8
+scikit-learn>=1.3
+beautifulsoup4>=4.12
+
+# Web / API
+flask>=3.0
+flask-pymongo>=2.3
+flask-googlemaps>=0.4
+requests>=2.31
+
+# Banco de dados
+pymongo>=4.5
+
+# NLP extras (opcionais)
+pyenchant>=3.2          # spell checker (requer dicionário pt_BR do sistema)
+polyglot>=16.7          # NER multilíngue
+
+# Utilitários
+python-dotenv>=1.0      # carregar .env com variáveis de ambiente
