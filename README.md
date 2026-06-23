@@ -1,7 +1,10 @@
-# Projeto TCC — Versão Melhorada
+# O que é esse projeto
 
 Classificador de crimes em textos de redes sociais (Facebook/Twitter),
-com visualização geoespacial via Flask + Google Maps.
+com visualização geoespacial via Flask + Google Maps. 
+
+Esse prejto foi feito e apresentado no meu TCC e ficou parado por muitos anos. Decidi atualizar ele para versão
+mais nova do Python e deixá-lo em modo funcional e armazená-lo no Github para versionamento.
 
 ---
 

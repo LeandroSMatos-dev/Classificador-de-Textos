@@ -249,7 +249,7 @@ def main():
 
     # --- LinearSVC ---
     logger.info("Treinando LinearSVC...")
-    svc = SklearnClassifier(LinearSVC(), sparse=False)
+    svc = SklearnClassifier(LinearSVC(class_weight='balanced'), sparse=False)
     svc.train(conjunto_treino)
     acuracia_svc = nltk.classify.accuracy(svc, conjunto_teste_features)
     logger.info("Acurácia LinearSVC: %.4f", acuracia_svc)
